@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+   <link rel="stylesheet" href="css/electronic.css">
+
+    <title>Electronic Shop</title>
+</head>
+<body>
+    <div class="container">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><span><img src="img/plug.png" alt="" height="50" width="auto">&nbsp; Aditya Electrnoics</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse  " id="navbarNav">
+            <ul class="navbar-nav ">
+              <li class="nav-item ">
+               <a class="nav-link border border-1-white badge rounded-pill p-3 m-2 fw-bold text-dark shadow-lg"  aria-current="page" href="electronic.html">Home</a>
+              </li>
+              <li class="nav-item ">
+              <a class="nav-link  text-dark border border-1-white badge rounded-pill p-3 m-2 fw-bold shadow-lg  " aria-current="page" href="aboutUs.html">About-Us</a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link  text-dark border border-1-white badge rounded-pill p-3 m-2 fw-bold shadow-lg  " aria-current="page" href="test.html">Test-Us</a>
+                </li>
+            </ul>
+          </div>
+        </div>
+
+
+<!-- Button trigger modal -->
+<button type="button" class="btn btn border-1 border-black" data-bs-toggle="modal" data-bs-target="#login">
+  Login
+ </button>
+ 
+ <!-- Modal -->
+ <div class="modal " id="login" data-bs-backdrop="static" data-bs-keyboard="false">
+   <div class="modal-dialog modal-dialog-centered">
+     <div class="modal-content">
+       <div class="modal-header">
+         <h1 class="modal-title fs-5" >Login In</h1>
+         <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+       </div>
+       <div class="modal-body">
+        <div class="container">
+          <div class="container py-5 h-100 card shadow">
+              <div class="row d-flex justify-content-center align-items-center h-100">
+                <div class="col col-xl-10">
+                  <div class="card card shadow" style="border-radius: 1rem; ">
+                    <div class="row g-0">
+                      <!--sfsadfdaff-->
+                      <div class="col-md-6 col-lg-7 d-flex align-items-center">
+                        <div class="card-body p-4 p-lg-5 text-black">
+                          
+                          <form style="margin-top: -10px;">
+                              <input class="checkbox" type="checkbox" id="reg-log" name="reg-log" />
+                              <label for="reg-log"><img src="img/samosa1.png" alt="" class="checkbox" id="reg-log" height="70px"></label>
+                              
+                              <div class="card-3d-wrap mx-auto ">
+                                  <div class="card-3d-wrapper">
+                                      <div class="card-front">
+                                          <div class="center-wrap">
+                                              
+                                              <div class="section text-center">
+                                                 <i><h2 class="mb-4 pb-3">Log In</h2></i>
+                                                  <div class="form-group">
+                                                      <input type="email" name="logemail" class="form-style"
+                                                          placeholder="Your Email" id="logemail" autocomplete="off">
+                                                      <i class="input-icon uil uil-at"></i>
+                                                  </div><br>
+                                                  <div class="form-group mt-2">
+                                                      <input type="password" name="logpass" class="form-style"
+                                                          placeholder="Your Password" id="logpass" autocomplete="off">
+                                                      <i class="input-icon uil uil-lock-alt"></i>
+                                                  </div><br>
+                                                  <a href="#" class="btn mt-4">submit</a>
+                                                  <p class="mb-0 mt-4 text-center"><a href="#0" class="link">Forgot your password?</a></p>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="card-back">
+                                          <div class="center-wrap">
+                                              <div class="section text-center">
+                                                  <i><h2 class="mb-4 pb-3">Sign Up</h2></i>
+                                                  <div class="form-group">
+                                                      <input type="text" name="logname" class="form-style"
+                                                          placeholder="Your Full Name" id="logname" autocomplete="off">
+                                                      <i class="input-icon uil uil-user"></i>
+                                                  </div><br>
+                                                  <div class="form-group mt-2">
+                                                      <input type="email" name="logemail" class="form-style"
+                                                          placeholder="Your Email" id="logemail" autocomplete="off">
+                                                      <i class="input-icon uil uil-at"></i>
+                                                  </div><br>
+                                                  <div class="form-group mt-2">
+                                                      <input type="password" name="logpass" class="form-style"
+                                                          placeholder="Your Password" id="logpass" autocomplete="off">
+                                                      <i class="input-icon uil uil-lock-alt"></i>
+                                                  </div><br>
+                                                  <a href="#" class="btn mt-4">submit</a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          </form>
+                        </div>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>   
+              </div>
+      
+      
+
+
+
+
+
+
+     </div>
+   </div>
+ </div>
+</nav>
+    <!-- End -->
+
+    <!-- Carousel -->
+    <div >
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/logo1.jpg" class="d-block w-100" alt="..." height="400px"  >
+              </div>
+              <div class="carousel-item">
+                <img src="img/logo2.jpg" class="d-block w-100" alt="..." height="400px">
+              </div>
+              <div class="carousel-item">
+                <img src="img/logo3.jpg" class="d-block w-100" alt="..." height="400px">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+  
+
+    <!-- End -->
+
+    <!-- -------Card------ -->
+    <div style="display: flex;">
+    <div class="col-sm-3 p-1">
+      <div class="card border shadow border-1 card-color">
+        <div class="card-body">
+          <img src="img/headphone5.jpg" alt="" class="img-thumbnail border-0">
+          <div class="card-title"><img src="img/logo.jpg" class=""></div>
+          <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+            Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+            ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+            Carry Pouch(Gunmetal Grey)</div>
+          <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-1">
+      <div class="card border shadow border-1 card-color">
+        <div class="card-body">
+          <img src="img/headphone6.jpg" alt="" class="img-thumbnail border-0">
+          <div class="card-title"><img src="img/logo.jpg" class=""></div>
+          <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+            Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+            ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+            Carry Pouch(Gunmetal Grey)</div>
+          <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-1">
+      <div class="card border shadow border-1 card-color">
+        <div class="card-body">
+          <img src="img/headphone7.jpg" alt="" class="img-thumbnail border-0">
+          <div class="card-title"><img src="img/logo.jpg" class=""></div>
+          <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+            Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+            ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+            Carry Pouch(Gunmetal Grey)</div>
+          <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-3 p-1">
+      <div class="card border shadow border-1 card-color">
+        <div class="card-body">
+          <img src="img/headphone8.jpg" alt="" class="img-thumbnail border-0">
+          <div class="card-title"><img src="img/logo.jpg" class=""></div>
+          <div class="card-text">boAt Nirvana 751 ANC Hybrid Active Noise Cancelling 
+            Bluetooth Wireless Over Ear Headphones with Up to 65H Playtime, 
+            ASAP Charge, Ambient Sound Mode, Immersive Sound, 
+            Carry Pouch(Gunmetal Grey)</div>
+          <div class="card-footer"><span><button class="border-0"><img src="img/cart.png" style="height: 25px;">&nbsp;&nbsp; ₹3,999</button></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+         
+
+
+    
+    <!-- -------End------- -->
+</div>
+</body>
+</html>

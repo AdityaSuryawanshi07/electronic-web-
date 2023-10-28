@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/electronic.css">
+
+    <title>Electronic Shop</title>
+</head>
+
+<body>
+    <div class="container">
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg bg-">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><span><img src="img/plug.png" alt="" height="50" width="auto">&nbsp;
+                        Aditya Electrnoics</span></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse  " id="navbarNav">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item ">
+                            <a class="nav-link border border-1-white badge rounded-pill p-3 m-2 fw-bold text-dark shadow-lg"
+                                aria-current="page" href="electronic.html">Home</a>
+                        </li>
+                        <li class="nav-item ">
+                            <a class="nav-link  text-dark border border-1-white badge rounded-pill p-3 m-2 fw-bold shadow-lg  "
+                                aria-current="page" href="aboutUs.html">About-Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn border-1 border-black" data-bs-toggle="modal" data-bs-target="#login">
+                Login
+            </button>
+
+            <!-- Modal -->
+            <div class="modal " id="login" data-bs-backdrop="static" data-bs-keyboard="false">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5">Login In</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleInputEmail1">
+
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label">Password</label>
+                                    <input type="password" class="form-control">
+                                </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="submit" class="btn btn-primary" style="margin: auto;">Submit</button>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End -->
+
+
+        <!-- Accrodation Start -->
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4 border">
+                    <img src="img/about.avif" alt="">
+                </div>
+                <div class="col-sm-8 border">
+                    <h2 class="h2 m2">People Also ask for:</h2>
+
+                    <!--Accrodation Start -->
+                    <div class="accrodation" id="accrodation_id">
+                        <!-- Item 1 -->
+                        <div class="accrodation-item m-2">
+                            <h2 class="acrodation-header">
+                                <button class="accrodation-button bg-warning-subtle mt-2 rounded-3" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                                    Which country is made Electronic Components first ?
+                                </button>
+                            </h2>
+                            <div class="accrodation-collapse collapse show" id="collapseOne"
+                                data-bs-parent="accrodation_id">
+                                <div class="accordation-body">
+                                    <strong>
+                                        Leading the Global Electronics Sector
+
+                                        China Exports from China accounted for 12.71% of trade globally in 2021. ...
+                                        Hong Kong The electronics industry in Hong Kong accounted for 72.6% of its total
+                                        exports in 2021,
+                                        making electronics the largest merchandise export earner in their territory. ...
+                                        The U.S. The manufacturing industry has historically played an important role in
+                                        the U.S. economy. ...
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  End -->
+
+                    <!-- Item 2 -->
+                    <div class="accrodation" id="accrodation_id_2">
+                        
+                        <div class="accrodation-item m-2">
+                            <h2 class="acrodation-header">
+                                <button class="accrodation-button bg-warning-subtle mt-2 rounded-3" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsetwo">
+                                    Who creates electronic devices?
+                                </button>
+                            </h2>
+                            <div class="accrodation-collapse collapse " id="collapsetwo"
+                                data-bs-parent="accrodation_id_2">
+                                <div class="accordation-body">
+                                    <strong>
+                                        
+                                        The 'birth' of electronics as we know it | Made at UCL - UCL ...
+                                      <b>  Sir John Ambrose Fleming</b>
+                                        You have a lot to thank Sir Ambrose Fleming for. A UCL student and the first Professor of Electronic 
+                                        Engineering - he transformed electronics. Sir John Ambrose Fleming was a former student and professor at
+                                         UCL and made electronics what it is today.
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Item 2 End-->
+
+                    <!--Item  3-->
+                    <div class="accrodation" id="accrodation_id_3">
+                        
+                        <div class="accrodation-item m-2">
+                            <h2 class="acrodation-header">
+                                <button class="accrodation-button bg-warning-subtle mt-2 rounded-3" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#collapsethree">
+                                    What makes electronic devices work?
+                                </button>
+                            </h2>
+                            <div class="accrodation-collapse collapse " id="collapsethree"
+                                data-bs-parent="accrodation_id_3">
+                                <div class="accordation-body">
+                                    <strong>
+                                        
+                                        Electronic products contain devices that control the flow of electricity.
+                                         A flow of electricity is called an electric current. Changes in electric currents
+                                          create electric signals. Electric signals can provide different kinds of 
+                                          information.
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--Item  3 End-->
+
+                </div>
+            </div>
+        </div>
